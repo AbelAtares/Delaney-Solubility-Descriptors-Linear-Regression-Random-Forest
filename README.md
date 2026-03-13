@@ -17,7 +17,7 @@ This project explores the Delaney solubility dataset using molecular descriptors
 - The model was trained on the training data and then used to predict values for the test set.
 
 ### 3. Model Evaluation
-- Predictions were evaluated using different regression metrics, such as **R²** and **RMSE**, to assess the performance of the model.  
+- Predictions were evaluated using different regression metrics, such as **R²**, **MSE** and **RMSE**, to assess the performance of the model.  
 - These metrics help quantify how well the model captures the variability of the target variable.
 
 ### 4. Data Visualization
@@ -35,5 +35,5 @@ This project explores the Delaney solubility dataset using molecular descriptors
 
 ---
 
-💡 **Conclusion:**  
+**Conclusion:**  
 For the Delaney solubility dataset, a simple Linear Regression model is sufficient to capture the underlying trends in the data. Random Forest did not provide a significant improvement in performance, making the linear model the preferred choice for its simplicity and interpretability.
